@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/AssignmentCure/static/css/main.135f4550.css",
+    "main.js": "/AssignmentCure/static/js/main.a44bae4c.js",
+    "static/media/logo.png": "/AssignmentCure/static/media/logo.a4bd68b2aa91335b9bb7.png",
+    "index.html": "/AssignmentCure/index.html",
+    "main.135f4550.css.map": "/AssignmentCure/static/css/main.135f4550.css.map",
+    "main.a44bae4c.js.map": "/AssignmentCure/static/js/main.a44bae4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.135f4550.css",
+    "static/js/main.a44bae4c.js"
+  ]
+}
