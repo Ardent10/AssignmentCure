@@ -1,0 +1,70 @@
+.navbar-expand-lg{
+    background: #000;
+}
+
+.logo{
+    width: 200px;
+    height: 70px;
+}
+
+.hire-btn{
+    transition: all 1s ease;
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1a8ed0 100%);
+    border-radius: 10px;
+    color: #fff;
+    width: 138px;
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+.hire-btn:hover{
+    background: #fafbfb;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    width: 138px;
+    margin-right: 25px;
+    font-weight: 600;
+}
+
+
+.login-btn{
+    width: 78px;
+    font-weight: 600;
+    color: #7abaff;
+    border: 1px solid #7eb8f6;
+    border-radius: 7px;
+}
+.login-btn:hover{
+    width: 78px;
+    font-weight: 600;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 7px;
+}
+
+.nav-link{
+    font-size: 18px;
+    align-items: flex-end;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+.nav-link:hover{
+    font-weight: 500;
+    color: #2E73BC;
+}
+.nav-link:focus{
+    font-weight: 500;
+    color: #2E73BC;
+}
+
+.mx-auto{
+    margin-right: 2rem!important;
+}
+
+.navbar-toggler{
+    background: #f2f2f2;
+}
+.navbar-toggler-icon{
+    width: 1.2rem;
+}

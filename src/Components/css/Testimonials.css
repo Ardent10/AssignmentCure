@@ -1,0 +1,126 @@
+.Testimonials-container{
+    padding: 50px;
+    margin: 50px 100px 0;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1a8ed0 100%);
+}
+
+.Testimonial-header {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.Testimonial-header h1{
+    font-size: 64px;
+    font-weight: 700;
+}
+
+/* SWIPER CSS START */
+
+.common-heading {
+    font-size: 4.8rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+    position: relative;
+  }
+  
+  .common-heading::before {
+    content: "";
+    position: absolute;
+    top: 87px;
+    left: 19rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    background: #ffffff;
+  }
+  
+  .common-heading::after {
+    content: "";
+    position: absolute;
+    top: 96px;
+    left: 19rem;
+    width: 30%;
+    height: 0.3rem;
+    background: #ffffff;
+  }
+  
+
+.container h1{
+    color: #fdfdfd;
+}
+
+.swiper-client-msg::before{
+    content: "";
+    position: absolute;
+    bottom: 5rem;
+    border: 2.5rem solid #fff;
+    left: 50%;
+    top: 16.5rem;
+    transform: translateX(-50%);
+    border-color: transparent;
+    border-top-color: #f3f4ff; ;
+}
+
+.swiper-client-msg{
+    padding: 4rem 5rem;
+    background-color:#fff;
+    border-radius:1rem;
+    text-align: left;
+    box-shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
+    position: relative;
+}
+
+.swiper-client-msg p::before{
+    content: "\f10d";
+    font-family: "Font Awesome 6 Free";
+    position: absolute;
+    top: -.25rem;
+    left: 1rem;
+    font-weight: 900;
+    font-size: 4rem;
+    color: #1a8ed0;
+}
+.swiper-client-msg p::after{
+    content: "\f10e";
+    font-family: "Font Awesome 6 Free";
+    position: absolute;
+    bottom: -.25rem;
+    right: 1rem;
+    font-weight: 900;
+    font-size: 4rem;
+    color: #9ee3ff;
+}
+
+.swiper-slide img{
+    max-width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: .5rem solid #f3f4ff;
+}
+
+.swiper-client-data{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    gap: .5rem;
+}
+
+.client-data-details h5{
+    font-weight: 900;
+    color: #fff;
+}
+.client-data-details p{
+    color: #fff;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: #fff!important;
+}

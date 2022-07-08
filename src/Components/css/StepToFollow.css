@@ -1,0 +1,16 @@
+.steps-container{
+    margin-top: 50px;
+    height: 100vh;
+    background:rgb(0, 0, 0);
+}
+
+.heading{
+    text-align: center;
+    padding: 30px;
+    color: #EAF3F9;
+}
+.heading h1{
+    color: #EAF3F9;
+    font-size: 65px;
+    font-weight: 700;
+}

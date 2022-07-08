@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { Navbar,StepsToFollow,Testimonials,Faq,Footer} from './Components';
 
-function App() {
+
+const App = ()=> {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar/>
+      {"Adding some Margin To Show the Difference."}
+      <StepsToFollow/>
+      <Testimonials/>
+      <Faq/>
+      <Footer/>
+      
     </div>
   );
 }
