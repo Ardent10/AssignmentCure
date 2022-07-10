@@ -1,24 +1,49 @@
 import React from 'react';
 import "./css/StepToFollow.css";
 import {Steps} from "../Module/General";
-import { Step } from '@mui/material';
 
 const StepsToFollow = () => {
 
 
 
   return (
+    
     <div className='steps-container'>
-      
       <div className='heading'>
         <h1>Steps To Follow?</h1>
-      
-        {Steps.map((data,idx)=>{
-          return <p key={data.id}>{data.step}</p>
-        })}
       </div>
 
+      <div className='circular'>
+        <div class="containers">
+              {Steps.map(data=>{
+                return (
+
+                <div class="cards">
+                  <div class="box">
+                    <div class="content">
+                      <h2>{data.id}</h2>
+                        <img src={data.icon} className='step-icon'/> 
+                      <p>{data.step}</p>
+                    </div>
+                  </div>
+                </div>
+                )
+              })}
+        </div>
+        
+
+
+                            
+                 
+
+
+     </div> 
+
+                
     </div>
+
+
+
   )
 }
 

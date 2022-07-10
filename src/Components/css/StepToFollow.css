@@ -1,16 +1,92 @@
 .steps-container{
-    margin-top: 50px;
-    height: 100vh;
-    background:rgb(0, 0, 0);
+  background: #091115;
+  height: 150vh;
+  padding: 20px 50px;
+}
+
+.circular{
+  top: 20rem;
+  left: 25%;
+  position: absolute;
+  border-radius: 50%;
+  width: 45%;
+  border: 15px solid rgb(246, 246, 246);
+}
+
+.containers {
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .heading{
+    padding: 50px;
+    background: #091115;
     text-align: center;
-    padding: 30px;
     color: #EAF3F9;
 }
 .heading h1{
     color: #EAF3F9;
     font-size: 65px;
     font-weight: 700;
+}
+
+.cards {
+  position: relative;
+  height: 215px;
+  min-width: 220px;
+}
+
+
+
+
+
+
+.box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.box:hover {
+  transform: translateY(-10px);
+}
+
+
+.content {
+  margin-top: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.content h2 {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+
+.content p {
+  font-size: 1rem;
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+  transition: 0.5s;
 }

@@ -1,10 +1,14 @@
+.Testimonial-main{
+    margin: 4rem 0;
+}
+
 .Testimonials-container{
     padding: 50px;
-    margin: 50px 100px 0;
+    /* margin: 50px 100px 0; */
     border-radius: 15px;
-    box-shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
-    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1a8ed0 100%);
+    background: linear-gradient(180deg, rgba(45, 156, 219, 0) -0.04%, #2D9CDB 52.24%, rgba(45, 156, 219, 0) 100%);
 }
+
 
 .Testimonial-header {
     display: block;
@@ -18,64 +22,45 @@
     font-weight: 700;
 }
 
-/* SWIPER CSS START */
-
-.common-heading {
-    font-size: 4.8rem;
-    font-weight: 700;
-    margin-bottom: 3rem;
-    text-transform: capitalize;
-    position: relative;
-  }
-  
-  .common-heading::before {
-    content: "";
-    position: absolute;
-    top: 87px;
-    left: 19rem;
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 50%;
-    background: #ffffff;
-  }
-  
-  .common-heading::after {
-    content: "";
-    position: absolute;
-    top: 96px;
-    left: 19rem;
-    width: 30%;
-    height: 0.3rem;
-    background: #ffffff;
-  }
-  
-
-.container h1{
-    color: #fdfdfd;
+.testimonial-hr{
+    margin-left: 40%;
+    opacity: 1;
+    width: 100px;
+    border: 4px solid #2D9CDB;
 }
 
-.swiper-client-msg::before{
-    content: "";
-    position: absolute;
-    bottom: 5rem;
-    border: 2.5rem solid #fff;
-    left: 50%;
-    top: 16.5rem;
-    transform: translateX(-50%);
-    border-color: transparent;
-    border-top-color: #f3f4ff; ;
+
+/* SWIPER CSS START */
+  
+.swiper{
+    height: 60vh;
+}
+
+.container h1{
+    color: #2DD1DB;
+    background: linear-gradient(232.68deg, #2DD1DB -8.55%, #2D9CDB 57.36%, #1A8ED0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-bottom: 30px;
 }
 
 .swiper-client-msg{
-    padding: 4rem 5rem;
+    padding: 2rem 5rem;
     background-color:#fff;
     border-radius:1rem;
-    text-align: left;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
     box-shadow: 0px 0px 20px 0px rgb(132 144 255 / 20%);
     position: relative;
 }
 
-.swiper-client-msg p::before{
+.swiper-client-msg p{
+   margin-top: 20px;
+}
+
+/* .swiper-client-msg p::before{
     content: "\f10d";
     font-family: "Font Awesome 6 Free";
     position: absolute;
@@ -94,33 +79,49 @@
     font-weight: 900;
     font-size: 4rem;
     color: #9ee3ff;
+} */
+
+.swiper-slide .left{
+    position: absolute;
+    max-width: 14rem;
+    height: 14rem;
+    left: 0;
+    top: 0;
+}
+.swiper-slide .right{
+    position: absolute;
+    max-width: 14rem;
+    height: 14rem;
+    right: 0;
+    bottom: 0;
 }
 
-.swiper-slide img{
-    max-width: 8rem;
-    height: 8rem;
-    border-radius: 50%;
-    border: .5rem solid #f3f4ff;
-}
-
-.swiper-client-data{
+/* .swiper-client-data{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-top: 3rem;
     gap: .5rem;
+} */
+
+.client-data-details{
+    text-align: center;
+
 }
 
 .client-data-details h5{
+    margin: 10px 0 0;
     font-weight: 900;
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 .client-data-details p{
-    color: #fff;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
 }
 
 .swiper-pagination-bullet-active {
+
     opacity: var(--swiper-pagination-bullet-opacity, 1);
-    background: #fff!important;
+    background: rgb(0, 0, 0)!important;
 }
